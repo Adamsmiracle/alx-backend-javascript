@@ -1,31 +1,31 @@
 export default class HolbertonCourse {
-  constructor(name, length, students) {
+  constructor (name, length, students) {
     this._name = name;
     this._length = length;
     this._students = students;
   }
 
-  get getName() {
+  get getName () {
     return this._name;
   }
 
-  get getLength() {
+  get getLength () {
     return this._name;
   }
 
-  get getSTudents() {
+  get getSTudents () {
     return this._name;
   }
 
-  set setName(name) {
+  set setName (name) {
     this._name = name;
   }
 
-  set setLength(length) {
+  set setLength (length) {
     this.length = length;
   }
 
-  set setStudents(array) {
+  set setStudents (array) {
     this._students = array;
   }
 }
